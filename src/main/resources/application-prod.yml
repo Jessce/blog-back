@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: ${MYSQL_PASSWORD}
+    url: jdbc:mysql://localhost:3306/blog1_0
+
+server:
+  servlet:
+    context-path: /blog
+  port: 8081
+
+project-url:
+  blog:
